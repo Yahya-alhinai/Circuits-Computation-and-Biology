@@ -1,0 +1,19 @@
+Initial Quantities and Thresholds
+A 66 B 30 I 1 E 0 T 0 Ap 0 Bp 0 C 0 
+
+Reactions
+  0: I 1 : I 0 E 1 : 1.0000 : 1 2 
+  1: A 1 B 1 E 1 : A -1 B -1 E 0 C 1 : 999999999999999983222784.0000 : 1 3 4 
+  2: E 1 : E -1 T 1 : 10000000000000000000.0000 : 1 2 
+  3: C 1 B 1 : C -1 B 0 Ap 1 : 100000000000000.0000 : 3 4 5 
+  4: C 1 A 1 : C -1 A 0 Bp 1 : 100000000000000.0000 : 3 4 6 
+  5: Ap 1 : Ap -1 A 1 : 100000.0000 : 1 4 5 
+  6: Bp 1 : Bp -1 B 1 : 100000.0000 : 1 3 6 
+
+
+simulation stats:
+avg [0.0000, 0.0000, 1.0000, 1.0000, 99.9400, 0.0000, 0.0000, 6.0000]
+avg   events/trial 458.8800
+avg   time/trial   100.8180
+avg   runtime      0.5.408
+total runtime      0.540.860
